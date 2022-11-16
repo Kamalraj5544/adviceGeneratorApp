@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@600&display=swap");
+body {
+  height: 100%;
+  font-family: "Manrope", system-ui, sans-serif;
+  font-weight: 800;
+  background-color: hsl(218, 23%, 16%);
+}
+@media only screen and (max-width: 600px) {
+  div.child {
+    width: 73%;
+    height: 42%;
+  }
+  #desktop-svg {
+    width: 295px;
+    height: 16px;
+    transform: translate(138);
+  }
+  .btn {
+    left: 42%;
+  }
+}
+h6 {
+  margin-top: 1%;
+  margin-bottom: 2%;
+  font-size: small;
+  font-weight: 400;
+  text-align: center;
+  color: hsl(150, 100%, 66%);
+  letter-spacing: 3px;
+}
+
+.child {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: hsl(193, 38%, 86%);
+  background-color: hsl(217, 19%, 24%);
+  border-radius: 10px;
+  padding: 30px;
+  width: 35%;
+  height: 32%;
+}
+.advice {
+  text-align: center;
+  font-size: 17px;
+  padding: 15px;
+  margin: 0px;
+}
+.divider {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  padding: 3% 0;
+}
+
+button {
+  padding: 13px;
+  border-radius: 100%;
+  background-color: hsl(150, 100%, 66%);
+  position: absolute;
+  left: 45%;
+  bottom: -25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button :hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 30px 10px hsl(150, 97%, 49%);
+}
+
+.rotate {
+  -moz-transition: all 2s linear;
+  -webkit-transition: all 2s linear;
+  transition: all 0.5s linear;
+}
+
+.rotate.down {
+  -moz-transform: rotate(-180deg);
+  -webkit-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+}
