@@ -13,8 +13,6 @@ This is a solution to the [Advice generator app challenge on Frontend Mentor](ht
   - [What I learned](#what-i-learned)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 This is advice generator app build using API calls.
@@ -29,8 +27,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](screenshots\Screenshot (1).png)
-![](screenshots\Screenshot (3).png)
+![](<./screenshots/Screenshot%20(1).png>)
+![](<./screenshots/Screenshot%20(3).png>)
 
 ### Links
 
